@@ -1,5 +1,7 @@
 'use strict';
 
-app.controller('main', ['$scope', function ($scope) {
-    $scope.home = 'home';
-}]);
+angular
+    .module('app')
+    .controller('main', ['$scope', function ($scope) {
+        $scope.home = 'home';
+    }]);
